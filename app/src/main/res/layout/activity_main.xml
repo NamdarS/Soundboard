@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Bongo" />
+
+    <Button
+        android:id="@+id/riser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#CDDC39"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Riser" />
+
+    <Button
+        android:id="@+id/kick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Kick" />
+
+    <Button
+        android:id="@+id/bass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Bass" />
+
+    <Button
+        android:id="@+id/crash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="525dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Crash" />
+
+    <Button
+        android:id="@+id/cowbell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Cowbell" />
+
+    <Button
+        android:id="@+id/hihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="525dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Hi-hat" />
+
+    <Button
+        android:id="@+id/triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#FFC107"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Triangle" />
+
+    <Button
+        android:id="@+id/clap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="525dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#FF5722"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Clap" />
+
+    <Button
+        android:id="@+id/supportbutton"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Support the creator" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/bass" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/cowbell" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/triangle" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/riser" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/bongo" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/kick" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="435dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/crash" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="435dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/hihat" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="435dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#c4302b"
+        android:src="@drawable/clap" />
+
+
+</RelativeLayout>
